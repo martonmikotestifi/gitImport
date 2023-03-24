@@ -1,0 +1,8 @@
+<data-configuration id="configData">
+  <petstore>
+    <baseUrl>https://training.testifi.io</baseUrl>
+    <petsUrl>${@configData('baseUrl')}/pets</petsUrl>
+    <loginUrl>${@configData('baseUrl')}/login</loginUrl>
+    <homePageUrl>${@configData('baseUrl')}/home</homePageUrl>
+  </petstore>
+</data-configuration>

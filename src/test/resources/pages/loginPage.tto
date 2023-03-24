@@ -1,0 +1,5 @@
+<sui:page id="ot:loginPage" schema="html">
+	<input id="usernameTextField" attribute:id="mat-input-0"/>
+	<input id="passwordTextField" attribute:id="mat-input-1"/>
+	<button id="loginButton" attribute:id="login__submit"/>
+</sui:page>

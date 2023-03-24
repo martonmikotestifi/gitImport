@@ -1,0 +1,9 @@
+<sui:page id="testWpfPage" schema="wpf">
+
+    <button id="something1" attribute:id="menu"/>
+
+    <tr id="something2" attribute:id="table__pet-row" index="${tableRowIndex}" >
+        <td id="something3" attribute:id="pet-row__status" />
+    </tr>
+
+</sui:page>

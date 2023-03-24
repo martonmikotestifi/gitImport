@@ -1,0 +1,17 @@
+<sui:scenario id="test12Scenario"
+              xray:testId="ON-1780"
+              xray:testSummary="test12Scenario"
+              xray:testDescription="test12Scenario"
+              device="${ @exec(@deviceListData('deviceDetails')) }"
+              ispaVersion="${ispaVersion!'NA'}">
+
+    <test-step xray:stepDescription="Navigate to the pet page" xray:stepData="" xray:stepExpectedResult="The pets page will open">
+        <sui:navigate method="to" url="${@configData('petsUrl')}"/>
+    </test-step>
+
+    <test-step xray:stepDescription="Navigate to the pet page" xray:stepData="" xray:stepExpectedResult="The pets page will open">
+        <sui:navigate method="to" url="${@configData('petsUrl')}"/>
+    </test-step>
+
+
+</sui:scenario>

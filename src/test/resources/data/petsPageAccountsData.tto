@@ -1,0 +1,12 @@
+<data-configuration id="petsPageAccountsData">
+    <petstore>
+        <admin selector="${selectedUser}">
+            <userName>admin.user</userName>
+            <password>Test!123</password>
+        </admin>
+        <demo selector="${selectedUser}">
+        	<userName>demo.user</userName>
+        	<password>Test!123</password>
+    	</demo>
+    </petstore>
+</data-configuration>

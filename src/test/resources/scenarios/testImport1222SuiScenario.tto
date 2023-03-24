@@ -1,0 +1,6 @@
+<sui:scenario device="${ @chrome()}" id="testImport1222SuiScenario" xray:testDescription="nagyonkiscica" xray:testId="" xray:testSummary="testImport1222SuiScenario try 2">
+	<test-step xray:stepData="" xray:stepDescription="2" xray:stepExpectedResult="">
+		<echo message="++++2222"/>
+
+	</test-step>
+</sui:scenario>

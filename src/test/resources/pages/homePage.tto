@@ -1,0 +1,7 @@
+<sui:page id="ot:homePage" schema="html">
+
+	<button id="storeButton" attribute:id="navigation__store"/>
+	<button id="homeButton" attribute:id="navigation__home"/>
+	<button id="petsButton" attribute:id="navigation__pets"/>
+
+</sui:page>

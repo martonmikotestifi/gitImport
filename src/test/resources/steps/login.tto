@@ -1,0 +1,16 @@
+<custom-building-block id="loginStep"
+                        description="Login"
+                        mandatoryParameters="mandatoryParameter1, mandatoryParameter2, mandatoryParameter3"
+					    optionalParameters="optionalParameter1, optionalParameter2, optionalParameter3"
+					    outputParameters="outputParameter1, outputParameter2, outputParameter3"
+					    modules="module1, module2, module3">
+                        
+   <sui:navigate method="to" url="${@configData('petstore.loginUrl')}"/>
+   <pause ms="1000"/>
+   <ot:loginPage/>
+   <sui:set-value pageId="usernameTextField" value="${@petsPageAccountsData('petstore.userName')}"/>
+   <sui:set-value pageId="passwordTextField" value="${@petsPageAccountsData('petstore.password')}"/>
+   <sui:click pageId="loginButton"/>
+   <sui:wait-for-url method="equals" timeout="10" value = "${@configData('petstore.homePageUrl')}"/>
+   
+</custom-building-block>

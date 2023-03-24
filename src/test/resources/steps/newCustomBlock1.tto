@@ -1,0 +1,11 @@
+<custom-building-block id="newCustomBlock1"
+                       description=""
+                       mandatoryParameters="mandatoryParameter1, mandatoryParameter2, mandatoryParameter3"
+                       optionalParameters="optionalParameter1, optionalParameter2, optionalParameter3"
+                       outputParameters="outputParameter1, outputParameter2, outputParameter3"
+                       modules="module1, module2, module3">
+
+    <sui:navigate method="to" url="${@configData('petstore.loginUrl')}"/>
+    <pause ms="1000"/>
+
+</custom-building-block>

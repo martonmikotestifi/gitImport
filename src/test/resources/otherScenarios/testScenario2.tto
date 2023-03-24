@@ -1,0 +1,12 @@
+<sui:scenario id="testScenario2"
+              xray:testId="CXM-28956"
+              xray:testSummary="testScenario2"
+              xray:testDescription="testScenario2"
+              device="${ @exec(@deviceListData('deviceDetails')) }">
+
+    <test-step xray:stepDescription="Navigate to the pet page" xray:stepData="" xray:stepExpectedResult="The pets page will open">
+        <sui:navigate method="to" url="${@configData('petsUrl')}"/>
+    </test-step>
+
+
+</sui:scenario>

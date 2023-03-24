@@ -1,0 +1,14 @@
+<custom-building-block id="gitImportStep"
+                       description="description1"
+                       mandatoryParameters="mandatoryParameters1, mandatoryParameters2, mandatoryParameters3"
+                       optionalParameters="optionalParameters1, optionalParameters2, optionalParameters3"
+                       outputParameters="outputParameters1, outputParameters2, outputParameters3"
+                       modules="modules1, modules2, modules3">
+
+    <property name="something" value="anything"/>
+
+    <echo message="+++ something"/>
+    <echo message="+++ anything"/>
+    <echo message="+++ echo3"/>
+
+</custom-building-block>

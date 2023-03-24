@@ -1,0 +1,20 @@
+<sui:page id="ot:petsPage" schema="html">
+    <button id="menuPetsButton" attribute:id="menu"/>
+    <button id="menuAddNewViewButton" attribute:id="menu__add-view"/>
+    <button id="menuAddCardButton" attribute:id="view-menu__card"/>
+	<h1 id="h1CardView" attribute:class="ng-star-inserted"/>
+	<button id="findPetButton" attribute:id="menu__search"/>
+	
+	<element id="selectSearch" type="mat-select" attribute:id="attribute__select"/>
+	<element id="statusOption" attribute:id="select__status"/>
+	<button id="nextButtonInSearch" attribute:type="submit"/>
+	<element id="statusSelect" attribute:id="status__select"/>
+	<element id="selectSoldCheckbox" attribute:id="select__sold"/>
+	<button id="actionsSearch" attribute:id="actions__search"/>
+
+	<tr attribute:id="table__pet-row" index="${tableRowIndex}" >
+  		<td id="tdActualRowStatus" attribute:id="pet-row__status" />  
+  		<td id="petName" attribute:id="pet-row__name"/>
+	</tr>
+	
+</sui:page>

@@ -1,0 +1,4 @@
+<lifecycle-hook id="xrayProperties" objects="${childrenOfXmlType('sui:scenario')}" to="execute">
+    <property name="xray:comment" value="${@deviceListData('seleniumVideoUrl')}"/>
+    <property name="xray:scenario-comment" value="${@deviceListData('seleniumVideoUrl')}"/>
+</lifecycle-hook>

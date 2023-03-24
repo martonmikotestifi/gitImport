@@ -1,0 +1,7 @@
+<suite name="Factory" parallel="methods" thread-count="1">
+	<test name="factory">
+		<packages>
+			<package name="io.testifi.cast.testng.*" />
+		</packages>
+	</test>
+</suite>

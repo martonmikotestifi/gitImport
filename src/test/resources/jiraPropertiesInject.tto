@@ -1,0 +1,9 @@
+<inject id="jiraProperties" objects="${@this()}">
+    <system-property name="jira:cloudUrl" value="https://jira-testifi.atlassian.net"/>
+    <system-property name="jira:cloudUser" value="testifi@testifi.io"/>
+    <system-property name="jira:apiToken" value="sE9jd4YC6nEsJ5pRBF7u5827"/>
+    <system-property name="jira:xrayAppVersion" value="cloud"/>
+    <system-property name="xray:clientId" value="05151297D2B0487286AF1CDC35B1AE6D"/>
+    <system-property name="xray:clientSecret" value="03de46d18115f0a95fbd056815f150f0df3dcd9a22724da003a9ee5961f82552"/>
+    <system-property name="testifi:serviceUrl" value="https://dev.test-management.testifi.io"/>
+</inject>

@@ -1,0 +1,9 @@
+<suite id="OnboardingTest:debug"
+	   selectedDevice="localChrome">
+	   
+	<ot:listPets/>
+	<ot:loginToPetstore selectedUser="admin" />
+	<ot:loginToPetstore selectedUser="demo" />
+
+
+</suite>

@@ -1,0 +1,8 @@
+<scenario id="testImport1222Scenario" xray:testDescription="kiscica" xray:testId="" xray:testSummary="testImport1222Scenario try">
+	<test-step xray:stepData="" xray:stepDescription="1" xray:stepExpectedResult="">
+		<echo message="++++1111"/>
+
+	</test-step>
+
+
+</scenario>

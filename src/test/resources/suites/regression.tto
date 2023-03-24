@@ -1,0 +1,11 @@
+<suite-xray-test-plan id="regression"
+					  selectedDevice="localChromeMaximised"
+					  jira:projectKey="ON"
+       xray:testplanKey="ON-1783"
+       xray:testplanSummary="Alex's onboarding test, Exercise 2a"
+       xray:testplanDescription="Onboarding task for testing the card view function of petsPage and searching for sold pets, and login function with 'admin' and 'demo' accounts with url/button verification"
+       testifi:serviceUrl="">
+	
+	<test12Scenario xray:testId="ON-1780"/>
+
+</suite-xray-test-plan>

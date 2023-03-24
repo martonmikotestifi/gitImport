@@ -1,0 +1,5 @@
+<lifecycle-hook id="onFailureHook" objects="${childrenOfXmlType('sui:scenario')}" to="error">
+
+    <sui:take-screenshot name="exception"/>
+
+</lifecycle-hook>

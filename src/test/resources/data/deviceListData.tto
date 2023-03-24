@@ -1,0 +1,10 @@
+<data-configuration id="deviceListData">
+
+    
+    
+    
+    <remoteChromeMaximised selector="${selectedDevice}">
+        <deviceDetails>@remote({'url':@deviceFarm(@deviceListData('arnUrl')), 'capabilities':{'browserName':'chrome', 'aws:maxDurationSecs':2400}, 'args':['--start-maximized']})</deviceDetails>
+    </remoteChromeMaximised>
+
+</data-configuration>
